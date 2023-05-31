@@ -1,0 +1,70 @@
+<html data-theme="">
+
+<head>
+  <title>ViaCEP Webservice</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <!-- Adicionando JQuery -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+  <script src="src/scriptt.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.52.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" type="text/css" href="/src/estilo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body data-theme="winter">
+  <div class="hero min-h-screen bg-base-200">
+    <div class="pl-4">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <div class="card flex-shrink-0  shadow-2xl bg-base-100">
+          <div class="card-body">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="form-control">
+                <label class="input-group">
+                  <span>CEP</span>
+                  <input type="text" placeholder=" CEP" class="input input-bordered" id="cep" />
+                </label>
+              </div>
+              <div class="form-control ">
+                <label class="input-group">
+                  <span>RUA</span>
+                  <input type="text" placeholder=" RUA" class="input input-bordered" id="rua" />
+                </label>
+              </div>
+              <div class="form-control">
+                <label class="input-group">
+                  <span>BAIRRO</span>
+                  <input type="text" placeholder="BAIRRO" class="input input-bordered" id="bairro" />
+                </label>
+              </div>
+              <div class="form-control">
+                <label class="input-group">
+                  <span>CIDADE</span>
+                  <input type="text" placeholder="CIDADE" class="input input-bordered" id="cidade" />
+                </label>
+              </div>
+              <div class="form-control">
+                <label class="input-group">
+                  <span>UF</span>
+                  <input type="text" placeholder="UF" class="input input-bordered" id="uf" />
+                </label>
+              </div>
+              <div class="form-control">
+                <label class="input-group">
+                  <span>DDD</span>
+                  <input type="text" placeholder="DDD" class="input input-bordered" id="ddd" />
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
