@@ -44,9 +44,9 @@ $(document).ready(function() {
                 icon: "success"
               });
               $("#cep").val(data.cep);
-              $("#rua").val(data.rua);
+              $("#rua").val(data.logradouro);
               $("#bairro").val(data.bairro);
-              $("#cidade").val(data.cidade);
+              $("#localidade").val(data.localidade);
               $("#uf").val(data.uf);
               $("#ddd").val(data.ddd);
             }
